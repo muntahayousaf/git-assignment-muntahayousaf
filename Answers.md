@@ -100,3 +100,18 @@ we can check with git status and git fetch to check if someone made any changes 
 
 --------------------------------------
 
+# Part 3 — Branching & Merging Lab
+
+# Exercise 3.1 — Branch basics
+
+## 6. Run git log --oneline --graph --all. Screenshot
+
+![screenshot 3.1](screenshots/screenshotsexercise3.1.1.png.png)
+
+## 8. Run git log --oneline --graph --all. Screenshot
+
+![screenshot 3.1b](screenshots/screenshotsexercise3.1b.1.png.png)
+
+## 9. Did this merge create a merge commit or was it a fast-forward? Howcan you tell?
+
+**Answer.** it was a fast forward merge. bcz both main and feature/profile-page point to same commit so no separate commit was created
