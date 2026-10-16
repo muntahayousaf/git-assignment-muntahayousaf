@@ -72,3 +72,31 @@ node_modules/
 
 ![screenshot 2.1](screenshots/screenshotsexercise-2.1.png.png)
 
+# Exercise 2.2 — The staging area
+
+## 2. Run git status. Screenshot the output
+
+![screenshot 2.2a](screenshots/screenshotsexercise-2.2a.png.png)
+
+## 5. Run git log --oneline.Screenshot
+
+![screenshot 2.2b](screenshots/screenshotsexercise-2.2b.png.png)
+
+## 6. In answers.md, explain: Why did we commit A+B separately from C? When would youwant to split commits this way?
+
+**Answer.** we commit feature A and B separately from feature C to keep changes organize understandable so we can easily undo , review or fix files whenever needed
+
+# Exercise 2.3 — Push & pull
+
+## 5. Screenshot
+
+![screenshot 2.3](screenshots/screenshotsexercise-2.3.png.png)
+
+## 6. In answers.md , answer: What would happen if you made a local commit first WITHOUTpulling? What command helps you check?
+
+**Answer.** If we are working locally and someone made changes on remote repo so when we commit it first without pulling git may reject it because  the remaote has new changes and our file is not up to date
+
+we can check with git status and git fetch to check if someone made any changes or not
+
+--------------------------------------
+
