@@ -63,3 +63,12 @@ node_modules/
 *.env
 
 --------------------------------------------------
+
+# Part 2 — Core Commands Lab
+
+# Exercise 2.1 — Your first repo
+
+## 9. Take a screenshot of your GitHub repo showing the commit
+
+![repo showing commit](screenshotsexercise-2.1.png)
+
