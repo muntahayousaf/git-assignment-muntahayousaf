@@ -70,5 +70,5 @@ node_modules/
 
 ## 9. Take a screenshot of your GitHub repo showing the commit
 
-![repo showing commit](screenshotsexercise-2.1.png)
+![repo showing commit](screenshots/screenshotsexercise-2.1.png)
 
