@@ -115,3 +115,28 @@ we can check with git status and git fetch to check if someone made any changes 
 ## 9. Did this merge create a merge commit or was it a fast-forward? Howcan you tell?
 
 **Answer.** it was a fast forward merge. bcz both main and feature/profile-page point to same commit so no separate commit was created
+
+# Exercise 3.2 — Deliberate conflict
+
+## 10. Screenshot the conflict output
+
+![screenshot 3.2a](screenshots/screenshotsexercise-3.2a.png.png)
+
+## 11. Screenshot the file conflict markers
+
+![screenshot 3.2b](screenshots/screenshotsexercise-3.2b.png.png)
+
+## 15. In answers.md , answer these:
+
+### a. Why did this conflict happen? (Reference the rule: same file, same line)
+
+**Answer.** this conflict happened bcz of same file same line rule. both branches modified the same line in team.txt file
+
+### b. Would there have been a conflict if the two branches edited different lines of team.txt?
+
+**Answer.** No there would not be a conflict 
+
+### c. Would there have been a conflict if one branch edited team.txt and the otheredited about.md?
+
+**Answer.** No there would not be a conflict. bcz branches are different .
+
