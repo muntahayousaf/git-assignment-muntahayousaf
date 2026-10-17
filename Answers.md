@@ -182,7 +182,7 @@ Fast-Forward commit: does not creates a new commit it moves the branch pointer f
 
 **Answer.**  Yes there would be a conflict bcz both dev working on same files.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<< Head 
+### <<<<<<<<<<<<<<<<<<<<<<<<<< Head 
 DEBUG = FALSE
 =================
 DEBUG = TRUE >>>>>>>>>>>>>>>>> 
