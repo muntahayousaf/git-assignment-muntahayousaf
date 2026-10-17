@@ -183,9 +183,9 @@ Fast-Forward commit: does not creates a new commit it moves the branch pointer f
 **Answer.**  Yes there would be a conflict bcz both dev working on same files.
 
 ### <<<<<<<<<<<<<<<<<<<<<<<<<< Head 
-DEBUG = FALSE
+### DEBUG = FALSE
 =================
-DEBUG = TRUE >>>>>>>>>>>>>>>>> 
+### DEBUG = TRUE >>>>>>>>>>>>>>>>> 
 
 ## Scenario D. You run git merge feature/new-ui and see this output: Auto-merging index.htmlCONFLICT (content): Merge conflict in index.htmlAutomatic merge failed; fix conflicts and then commit the result. Write out the exact steps (commands included) you would take to resolve this conflictand finish the merge.
 
