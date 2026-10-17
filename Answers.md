@@ -140,3 +140,63 @@ we can check with git status and git fetch to check if someone made any changes 
 
 **Answer.** No there would not be a conflict. bcz branches are different .
 
+# Part 4 — GitHub Workflow Challenge
+
+# Exercise 4.1 — Feature branch workflow
+
+## 9. Screenshot the PR page
+
+![screenshot 4.1a](screenshots/screenshotsexercise-4.1a.png.png)
+
+## 12. Screenshot graph merge commit
+
+![screenshot 4.1b](screenshots/screenshotsexercise-4.1b.png.png)
+
+## 13. In answers.md, answer:
+
+## a. What is the purpose of a pull request? Why not just merge directly?
+
+**Answer.** pull request let others to check our  code and make changes before we merge it to a main branch.
+
+## b. Name two things a reviewer should check in a pull request
+
+**Answer.** 1. checks mistakes and bugs in the code
+2. check conflicts and also check the code works correctly or not.
+
+## c. What is the difference between a merge commit and a fast-forward merge?
+
+**Answer.** Merge commit: creates a new commit when we combine two branches.
+Fast-Forward commit: does not creates a new commit it moves the branch pointer forward.
+
+# PPart 5 — Merge Conflict Scenarios
+
+# Scenario A.Ahmed creates a branch and changes line 10 of index.html. Sara creates adifferent branch and changes line 1 of the same index.html. Both merge into main. Willthere be a conflict? Why or why not?
+
+**Answer.** No there would be no conflict. Bcz file is same but lines are different and there is a space between two lines. 
+
+# Scenario B. Ali edits style.css on his branch. Fatima edits app.js on her branch. Bothmerge into main. Will there be a conflict? Why or why not?
+
+**Answer.** No there would be no conflict bcz both are working on different files.
+
+# Scenario C. Dev A changes line 5 of config.py to DEBUG = True. Dev B changes line 5 of config.py to DEBUG = False. Both merge into main. Will there be a conflict? If yes,show exactly what the conflict markers would look like in the file.
+
+**Answer.** Yes there would be a conflict bcz both dev working on same files.
+<<<<<<<<<<<<<<<<<<<<<<<<<< Head 
+DEBUG = FALSE
+=================
+DEBUG = TRUE >>>>>>>>>>>>>>>>> 
+
+# Scenario D. You run git merge feature/new-ui and see this output: Auto-merging index.htmlCONFLICT (content): Merge conflict in index.htmlAutomatic merge failed; fix conflicts and then commit the result. Write out the exact steps (commands included) you would take to resolve this conflictand finish the merge.
+
+**Answer.**  1. Open index.html file
+2. select correct changes and remove conflict markers 
+3. save the file
+run commands 
+git add index.html
+git commit -m 'fix conflicts'
+
+# Scenario E. Your teammate says: "I always do git pull before I start working everymorning." Is this a good practice? Explain why or why not, and what could go wrong if theyskip it.
+
+**Answer.** Yeah it is a gud practice to pull before starting work bcz it brings latest code from repo and if we skip it our code would be outdated.
+
+----------------------------------------------------------------------------------
